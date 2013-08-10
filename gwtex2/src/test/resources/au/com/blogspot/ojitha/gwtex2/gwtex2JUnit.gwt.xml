@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='au.com.blogspot.ojitha.gwtex2.gwtex2' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/gwtex2/greet" class="au.com.blogspot.ojitha.gwtex2.server.GreetingServiceImpl" />
+
+</module>
